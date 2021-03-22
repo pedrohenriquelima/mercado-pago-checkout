@@ -8,8 +8,8 @@ data class Notification(
     var type: String,
     var date_created: Date,
     var application_id: Number,
-    var user_id: Number,
-    var version: Number,
+    var user_id: String,
+    var version: Number?,
     var api_version: String,
     var action: String,
     var data: NotificationData

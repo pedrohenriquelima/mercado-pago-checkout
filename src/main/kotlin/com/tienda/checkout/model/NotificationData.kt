@@ -1,5 +1,5 @@
 package com.tienda.checkout.model
 
 data class NotificationData (
-    val id: String
+    var id: String
 )
